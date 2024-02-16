@@ -1,6 +1,5 @@
 import { Server as SocketIOServer } from "socket.io"
 import http from "http"
-import { log } from "console"
 
 
 export const initSocketServer = (server: http.Server) => {
